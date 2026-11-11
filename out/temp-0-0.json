@@ -1,0 +1,28 @@
+{
+  "id": "7220b847-1395-4342-927c-4dcd5e861595",
+  "object": "chat.completion",
+  "created": 1794314594,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "楼下拿铁\n电梯口咖啡\n工位续命站\n写字楼手冲\n楼下见咖啡\n打卡前一杯\n午间咖啡局\n楼下小憩"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 35,
+    "total_tokens": 67,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 32
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e3acf290-623c-4c5c-a3f6-2525e8bcade1",
+  "object": "chat.completion",
+  "created": 1794314636,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "好的，再补充两点：\n\n1. **历史文化底蕴深厚**——杭州是吴越文化和南宋文化的中心，拥有良渚古城遗址（世界文化遗产）和众多千年古刹，人文积淀源远流长。\n\n2. **数字经济高地**——作为阿里巴巴等科技巨头的总部所在地，杭州是中国电子商务和数字经济的标杆城市，创新创业氛围浓厚。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 74,
+    "total_tokens": 135,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

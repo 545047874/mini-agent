@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "chat": "npx tsx --env-file=.env src/chat.ts 2>&1 | head -40",
+    "d1": "npx tsx --env-file=.env src/d1.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

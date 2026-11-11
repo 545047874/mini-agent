@@ -1,0 +1,28 @@
+{
+  "id": "65903bb9-069b-4750-99f8-a8b76301a07a",
+  "object": "chat.completion",
+  "created": 1794314627,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "你叫小明呀！😊 你刚才在消息里说了“我叫小明”，所以我知道你叫小明。有什么我可以帮你的吗，小明？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10,
+    "completion_tokens": 32,
+    "total_tokens": 42,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 10
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

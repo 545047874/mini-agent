@@ -1,0 +1,28 @@
+{
+  "id": "1da5e75c-cce8-4cf3-9c06-0a50aa271a06",
+  "object": "chat.completion",
+  "created": 1794314599,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "楼下拿铁\n九点前\n工位之外\n一楼醒着\n电梯口咖啡\n写字楼下\n午后续杯\n打卡之后"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 29,
+    "total_tokens": 61,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 32
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

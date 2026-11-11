@@ -5,7 +5,9 @@
     "moduleResolution": "NodeNext",
     "strict": true,
     "noEmit": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["node"],  // 👈 加上这一行，强制加载 Node 类型
+    "allowImportingTsExtensions": true  // 👈 加上这一行
   },
   "include": ["src"]
 }

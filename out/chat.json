@@ -1,0 +1,32 @@
+{
+  "id": "f24280ee-270e-4852-a409-b2dc080ca7af",
+  "object": "chat.completion",
+  "created": 1794313114,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "你好！",
+        "reasoning_content": "我们需要回答中文简单问候。用户说“说一句你好”。需要说一句你好。可以回“你好！”。需要简洁。最终只需一句。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 34,
+    "total_tokens": 67,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 33
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

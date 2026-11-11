@@ -1,0 +1,28 @@
+{
+  "id": "d3a8d21e-3858-4503-8a40-aa0ab3fba0da",
+  "object": "chat.completion",
+  "created": 1794314596,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "楼下见\n晨会前\n格子间外\n一杯醒\n电梯口\n九点一刻\n工位补给\n下楼透气"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 27,
+    "total_tokens": 59,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 32
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

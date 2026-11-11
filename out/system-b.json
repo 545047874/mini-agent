@@ -1,0 +1,28 @@
+{
+  "id": "23dc2ec5-514a-4ffe-a7e6-707a41ab331a",
+  "object": "chat.completion",
+  "created": 1794314619,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "好"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11,
+    "completion_tokens": 1,
+    "total_tokens": 12,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 11
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

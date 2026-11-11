@@ -1,0 +1,28 @@
+{
+  "id": "a19dd4b6-716b-4947-8ac8-cf010337eda6",
+  "object": "chat.completion",
+  "created": 1794314634,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "你好！很高兴见到你，有什么我可以帮忙的吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5,
+    "completion_tokens": 11,
+    "total_tokens": 16,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 5
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

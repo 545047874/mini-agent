@@ -1,0 +1,28 @@
+{
+  "id": "0af472a0-17d7-4417-9dea-7ac8113ccebd",
+  "object": "chat.completion",
+  "created": 1794314597,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "楼下见\n晨会前\n续命站\n格子间外\n九点一刻\n电梯口\n提神所\n工位补给"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 29,
+    "total_tokens": 61,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 32
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

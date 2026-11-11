@@ -1,0 +1,28 @@
+{
+  "id": "af7b20dd-4b94-4b38-a073-2e34ca393c7d",
+  "object": "chat.completion",
+  "created": 1794314617,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "你好呀！我是DeepSeek，由深度求索公司创造的AI助手，很高兴认识你！😊\n\n让我简单介绍一下自己：\n\n**我的特点：**\n- 🆓 **完全免费**：无论是网页版还是App，都不收费\n- 📚 **超大上下文**：1M上下文窗口，可以一次性处理《三体》三部曲那么大的文本量\n- 📎 **文件处理能力**：支持上传图片、PDF、Word、Excel、PPT等文件，提取文字信息帮你处理\n- 🌐 **联网搜索**：支持联网查询最新信息（需要手动开启）\n- 🎤 **语音输入**：App端支持语音输入，更方便\n\n**我的能力：**\n- 文本对话、问答、创作\n- 代码编写与调试\n- 文档分析与总结\n- 翻译、学习辅导\n- 知识截止到2026年2月\n\n**小提示：**\n- 我支持图片输入，你可以上传图片让我帮你分析其中的可见信息\n- 如果需要联网搜索，记得在Web/App上手动点开联网搜索按钮哦\n\n有什么我可以帮你的吗？无论是学习、工作还是日常问题，都可以问我！💪"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 249,
+    "total_tokens": 255,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 6
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

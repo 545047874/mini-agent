@@ -1,0 +1,28 @@
+{
+  "id": "adcfaf07-2f53-4eab-8f57-ea6f77c20978",
+  "object": "chat.completion",
+  "created": 1794314600,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "楼下见\n梯间咖啡\nbrief break\n半层\n早八人\n写字楼下\n工位之外\n转角续杯"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 27,
+    "total_tokens": 59,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 32
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,10 @@
+{
+    "content": "定",
+    "finishReason": "stop",
+    "usage": {
+        "promptTokens": 12,
+        "completionTokens": 1,
+        "cacheHitTokens": 0
+    },
+    "model": "deepseek-flash"
+}

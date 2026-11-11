@@ -1,0 +1,28 @@
+{
+  "id": "cd9aa7f6-0fd7-47ec-a984-4cb3106a2d36",
+  "object": "chat.completion",
+  "created": 1794314638,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "杭州是一座“半城山水半城湖”的江南古都，既有西湖的柔美诗意，又有互联网之都的现代活力；它历史文化底蕴深厚，是吴越文化与南宋文化的中心，拥有良渚古城遗址等世界文化遗产；同时作为阿里巴巴等科技巨头的总部所在地，它也是中国电子商务和数字经济的标杆城市，创新创业氛围浓厚。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 76,
+    "total_tokens": 217,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 141
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

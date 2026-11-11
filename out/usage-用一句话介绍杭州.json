@@ -1,0 +1,28 @@
+{
+  "id": "060c1e2f-6369-4566-b0f6-ad946afbfffc",
+  "object": "chat.completion",
+  "created": 1794314635,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "杭州是一座“半城山水半城湖”的江南古都，既有西湖的柔美诗意，又有互联网之都的现代活力。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 24,
+    "completion_tokens": 30,
+    "total_tokens": 54,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 24
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

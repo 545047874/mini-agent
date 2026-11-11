@@ -1,0 +1,28 @@
+{
+  "id": "9334ff2f-3517-46cc-92b7-d8830115d43c",
+  "object": "chat.completion",
+  "created": 1794314598,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1. 楼下咖啡\n2. 晨杯Coffee\n3. 梯间香气\n4. 写字楼下来\n5. 工位之外\n6. 一杯下楼\n7. 大堂咖啡站\n8. 忙里偷闲咖啡"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 55,
+    "total_tokens": 87,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 32
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
